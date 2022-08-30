@@ -20,6 +20,8 @@
 
 // Sensor types
 
+#define SENSOR_STATUS String('A') // for general device status
+#define SENSOR_IP String('I') 
 #define SENSOR_TEMPERATURE String('T')
 #define SENSOR_SOIL_MOISTURE String('M')
 #define SENSOR_GATE String('G')
@@ -27,10 +29,13 @@
 #define SENSOR_HUMIDITY String('H')
 #define SENSOR_SOUND String('S')
 
+#define STATUS_OK String('OK')
+
 #define MODE_INSTRUCTION String('I')
 #define MODE_RESPONSE String('R')
 
-#define DEVICE_MASTER String('M')
+#define DEVICE_ALL String('A')
+#define DEVICE_HUB String('H')
 #define DEVICE_PUMPHOUSE String('P')
 
 #define DEVICE_TYPE_HELTEC String('Heltec ESP LoRA WiFi')
