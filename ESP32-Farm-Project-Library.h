@@ -29,7 +29,8 @@
 #define SENSOR_HUMIDITY String('H')
 #define SENSOR_SOUND String('S')
 
-#define STATUS_OK String('OK')
+#define STATUS_OK String('1')
+#define STATUS_BAD String('0')
 
 #define MODE_INSTRUCTION String('I')
 #define MODE_RESPONSE String('R')
